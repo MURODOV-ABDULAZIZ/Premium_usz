@@ -1,0 +1,80 @@
+ video{
+           display: inline;
+           width:300px;
+                     
+        }
+        #rasm{
+            
+        
+            display: block;
+            height: 300px;
+            margin:20px auto;
+
+        
+        }
+    div{
+        display: flex;justify-content: space-around;
+        
+    }
+    img{
+        width: 400px;
+        height:600px;
+
+
+    }
+    h1{
+        text-align: center;
+    }
+body{
+    background-image:url(background.jpeg)
+}
+
+h3{
+    display:block;
+}
+#greating{
+    color:springgreen;
+    font-size: 50px;
+    
+}
+
+
+.tugma-joylashuvi {
+        text-align: center; /* Ichidagi elementni markazga suradi */
+        padding: 40px 0;    /* Yuqori va pastdan bo'sh joy beradi */
+    }
+
+    /* Asosiy tugma stili */
+    .premium-tugma {
+        background: linear-gradient(45deg, #8e2de2, #4a00e0); /* Chiroyli gradient fon */
+        color: white;                   /* Matn rangi - oq */
+        padding: 15px 35px;             /* Tugma ichidagi bo'shliq (balandligi va kengligi) */
+        text-decoration: none;          /* Link tagidagi chiziqchani olib tashlash */
+        border-radius: 50px;            /* Qirralarini to'liq yumaloqlash */
+        font-size: 18px;                /* Matn o'lchami */
+        font-weight: bold;              /* Matnni qalin qilish */
+        border: none;                   /* Hech qanday chegarani olib tashlash */
+        cursor: pointer;                /* Sichqoncha borganda "qo'l" belgisi chiqishi */
+        transition: transform 0.2s ease-in-out; /* Bosilganda kichik animatsiya uchun */
+        display: inline-block;          /* Blok elementdek joy egallaydi, lekin qatorda turadi */
+    }
+
+    /* Sichqoncha tugma ustiga borganda bo'ladigan holat */
+    .premium-tugma:hover {
+        opacity: 0.9; /* Biroz xiralashadi */
+        box-shadow: 0 0 15px rgba(74, 0, 224, 0.7); /* Atrofida soya paydo bo'ladi */
+    }
+
+    /* Tugma bosilganda bo'ladigan holat */
+    .premium-tugma:active {
+        transform: scale(0.95); /* Biroz kichrayadi, bosilish effektini beradi */
+    }
+video{
+    margin: auto 500px;
+    width: 800px;
+    height:500px ;
+    
+}
+div{
+    color: #4a00e0;
+}
